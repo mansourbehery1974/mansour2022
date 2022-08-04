@@ -1,0 +1,142 @@
+
+
+body{
+    font-family:sans-serif; 
+    margin:0;
+    padding:0;
+    background-color:#f4f4f4f4;
+    direction:rtl
+}
+.container{
+    width:95%;
+    margin:auto;
+    overflow:hidden
+}
+ul{
+    margin:0;
+    padding:0;
+}
+header{
+    background:#353637;
+    color:#ffffff;
+    min-height:70px;
+    padding-top:30px;
+    border:#32a0c2 5px solid;
+}
+header a{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:19px;
+}
+header li{
+    float:right;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+header #brand{
+    float:right;
+    margin-right:70px;
+    color:#32a0c2;
+}
+header #brand {
+    margin:0;
+   
+   
+}
+nav{
+    float:left;
+    margin-top:20px;
+}
+.current{
+    color:#32a0c2;
+    font-weight:bold;
+}
+header a:hover{
+    font-weight:bold;
+    color:#080;
+}
+#showcase{
+    background:url("images/landing.jpg") no-repeat center;
+    min-height:400px;
+    background-size:cover;
+}
+#newsletter{
+    margin:15px;
+    background:#353637;
+    color:#ffffff;
+}
+#newsletter h2{
+    float:right;
+}
+#newsletter form{
+    float:left;
+    margin-top:15px;
+}
+#newsletter input[type="email"]{
+    padding:5px;
+    height:25px;
+    width:250px;
+}
+.button{
+    height:38px;
+    padding-left:20px;
+    padding-right:20px;
+    background:#cccccc;
+    color:#353637;
+    font-weight:bold;
+    
+}
+#boxes{
+    margin-top:20px;
+}
+#boxes .box{
+    width:30%;
+    padding:15px;
+    float:right;
+    text-align:center;
+}
+#boxes .box img{
+    width:350px;
+    height:400px;
+}
+footer{
+    text-align:center;
+    margin-top:20px;
+    padding:20px;
+    background:#32a0c2;
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bold;
+}
+span{
+    color:red
+}
+@media(max-width:768px)
+{
+header #brand,
+header nav,
+header nav li,
+ #newsletter h2,
+ #newsletter form,
+#boxes .box
+{
+    float:none;
+    text-align:center;
+    width:100%;
+}
+header
+{
+padding-bottom:20px;
+}
+#newsletter .button
+{
+    display:block;
+    width:100%;
+}
+#newsletter form input[type="email"]
+{
+    width:100%;
+    margin-bottom:5px;
+}
+
+}
